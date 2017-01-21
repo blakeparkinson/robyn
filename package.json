@@ -33,6 +33,7 @@
     "@angular/platform-browser": "*",
     "@angular/platform-browser-dynamic": "*",
     "@angular/router": "*",
+    "@types/paper": "^0.9.0",
     "core-js": "*",
     "paper": "^0.10.2",
     "reflect-metadata": "^0.1.3",
