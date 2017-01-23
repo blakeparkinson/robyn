@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { RainbowComponent } from './shared/rainbow.component';
 import { BallsComponent } from './shared/balls.component';
 import { AboutComponent } from './about/about.component';
+import { VideoComponent } from './video/video.component';
+
 import { ApiService } from './shared';
 import { routing } from './app.routing';
 
@@ -25,7 +27,8 @@ import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
     HomeComponent,
     AboutComponent,
     RainbowComponent,
-    BallsComponent
+    BallsComponent,
+    VideoComponent
   ],
   providers: [
     ApiService
