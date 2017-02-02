@@ -14,13 +14,17 @@ import { ApiService } from './shared';
 import { routing } from './app.routing';
 
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
+import { LocaleModule, LocalizationModule } from 'angular2localization';
+
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpModule,
     FormsModule,
-    routing
+    routing,
+    LocaleModule.forRoot(), // New instance of LocaleService.
+    LocalizationModule.forRoot() // New instance of LocalizationService.
   ],
   declarations: [
     AppComponent,
